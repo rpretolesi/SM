@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"  >
+
+    <TextView
+        android:id="@+id/idTextViewSignUpPatientAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewSignUpPatient" />
+
+    <EditText
+        android:id="@+id/idEditTextSignUpPatientFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTextViewSignUpPatientAction" 
+        android:hint="@string/hintTextSignUpPatientFirstName" 
+        android:inputType="text" >
+        
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/idEditTextSignUpPatientLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextSignUpPatientFirstName" 
+        android:hint="@string/hintTextSignUpPatientLastName" 
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/idEditTextSignUpPatientDateOfBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextSignUpPatientLastName" 
+        android:layout_alignParentLeft="true"    
+        android:hint="@string/hintTextSignUpPatientDateOfBirth" 
+        android:inputType="date" />
+    
+    <Button
+        android:id="@+id/idButtonSignUpSetPatientDateOfBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextSignUpPatientLastName"        
+        android:layout_alignParentRight="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonSignUpSetPatientDateOfBirth" />
+    
+    <EditText
+        android:id="@+id/idEditTextSignUpPatientMedicalRecordID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idButtonSignUpSetPatientDateOfBirth" 
+        android:hint="@string/hintTextSignUpPatientMedicalRecordID" 
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/idEditTextSignUpPatientUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/idEditTextSignUpPatientMedicalRecordID" 
+        android:hint="@string/hintTextSignUpPatientUserName" 
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/idEditTextSignUpPatientPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextSignUpPatientUserName"  
+        android:hint="@string/hintTextSignUpPatientPassword" 
+        android:inputType="textPassword" />
+    
+   <ImageView
+        android:id="@+id/idImageViewSignUpPatientPicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/idEditTextSignUpPatientPassword" 
+ 		android:layout_alignParentLeft="true"  
+        android:src="@android:drawable/ic_menu_camera" />
+
+   <Button
+        android:id="@+id/idButtonSignUpPatientGetPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idImageViewSignUpPatientPicture"        
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/textSignUpPatientGetPicture" />
+   
+    <Button
+        android:id="@+id/idButtonSignUpPatientAddPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idImageViewSignUpPatientPicture"        
+        android:layout_alignParentRight="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/textSignUpPatientAddPatient" />
+    
+</RelativeLayout>

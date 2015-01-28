@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.capstone.sm.SettingActivity$CancerTherapyFragment" >
+
+    <TextView
+        android:id="@+id/idTextViewChoosePatientCancerTherapy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/labelTextViewChoosePatientCancerTherapy" />
+    
+    <EditText
+        android:id="@+id/idEditTextCancerTherapyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/idTextViewChoosePatientCancerTherapy" 
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="@string/labelEditTextCancerTherapyName" 
+        android:inputType="text" > 
+        <requestFocus />
+    </EditText>    
+    
+    <EditText
+        android:id="@+id/idEditTextCancerTherapyDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/idEditTextCancerTherapyName" 
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="@string/labelEditTextCancerTherapyDate" 
+        android:inputType="date" /> 
+        
+    <Button
+        android:id="@+id/idButtonSetCancerTherapyDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextCancerTherapyName"        
+        android:layout_alignParentRight="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonSetCancerTherapyDate" />
+     
+    <EditText
+        android:id="@+id/idEditTextCancerTherapyTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/idEditTextCancerTherapyDate" 
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="@string/labelEditTextCancerTherapyTime" 
+        android:inputType="time" /> 
+        
+    <Button
+        android:id="@+id/idButtonSetCancerTherapyTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextCancerTherapyDate"        
+        android:layout_alignParentRight="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonSetCancerTherapyTime" />
+
+    <Button
+        android:id="@+id/idButtonSetCancerTherapyAddUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextCancerTherapyTime"        
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonSetCancerTherapyAddUpdate" />
+    
+    <Button
+        android:id="@+id/idButtonSetCancerTherapyDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextCancerTherapyTime"        
+        android:layout_alignParentRight="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonSetCancerTherapyDelete" />
+    
+    <Button
+        android:id="@+id/idButtonSetCancerTherapyList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idButtonSetCancerTherapyAddUpdate"        
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonSetCancerTherapyList" />
+
+</RelativeLayout>

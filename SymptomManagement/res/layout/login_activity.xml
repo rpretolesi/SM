@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/idTextViewLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/labelTextViewLogin" />
+    
+    <EditText
+        android:id="@+id/idEditTextLoginUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/idTextViewLogin" 
+        android:hint="@string/labelEditTextLoginUserName" 
+        android:inputType="text" > 
+        
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/idEditTextLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/labelEditTextLoginPassword" 
+        android:inputType="textPassword" 
+        android:layout_below="@id/idEditTextLoginUserName" /> 
+    
+    <Spinner
+        android:id="@+id/spinnerLoginUserType"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+        android:inputType="number" 
+        android:layout_below="@id/idEditTextLoginPassword" />         
+    
+    <Button
+        android:id="@+id/idButtonLogin"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerLoginUserType"        
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonLogin" />
+
+    <Button
+        android:id="@+id/idButtonCancel"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerLoginUserType"    
+        android:layout_alignParentRight="true"   
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonCancel" />
+
+    
+</RelativeLayout>

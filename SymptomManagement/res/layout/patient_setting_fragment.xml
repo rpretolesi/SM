@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.capstone.sm.patient.PatientActivity" >
+
+    <TextView
+        android:id="@+id/idTextViewPatientSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelTextViewPatientSetting" />
+    
+    <EditText
+        android:id="@+id/idEditTextHostAddressSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/idTextViewPatientSetting" 
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:hint="@string/labelTextViewHostAddressSetting" /> 
+        <requestFocus />    
+    
+    <EditText
+        android:id="@+id/idEditTextPatientSettingReminderFrequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/idEditTextHostAddressSetting" 
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:hint="@string/labelEditTextPatientSettingReminderFrequency" 
+        android:inputType="number" > 
+
+    </EditText>    
+    
+        <Button
+        android:id="@+id/idButtonPatientSettingStartReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextPatientSettingReminderFrequency"        
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonPatientSettingStartReminder" />
+        
+        <Button
+        android:id="@+id/idButtonPatientSettingStopReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextPatientSettingReminderFrequency"        
+        android:layout_alignParentRight="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonPatientSettingStopReminder" />
+                
+        <TextView
+        android:id="@+id/idTextViewPatientSettingReminderIsRunning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/idButtonPatientSettingStartReminder" 
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:hint="@string/labelTextViewPatientSettingReminderIsRunning"  /> 
+        
+        <Button
+        android:id="@+id/idButtonPatientSettingSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTextViewPatientSettingReminderIsRunning"        
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/labelButtonPatientSettingSave" />
+
+        
+</RelativeLayout>

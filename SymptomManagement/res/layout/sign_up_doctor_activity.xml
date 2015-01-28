@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"  >
+
+    <TextView
+        android:id="@+id/idTextViewSignUpDoctorAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewSignUpDoctor" />
+
+    <EditText
+        android:id="@+id/idEditTextSignUpDoctorFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTextViewSignUpDoctorAction" 
+        android:hint="@string/hintTextSignUpDoctorFirstName" 
+        android:inputType="text" >
+        
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/idEditTextSignUpDoctorLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextSignUpDoctorFirstName" 
+        android:hint="@string/hintTextSignUpDoctorLastName" 
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/idEditTextSignUpDoctorIdentificationID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextSignUpDoctorLastName" 
+        android:hint="@string/hintTextSignUpDoctorIdentificationID" 
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/idEditTextSignUpDoctorUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/idEditTextSignUpDoctorIdentificationID" 
+        android:hint="@string/hintTextSignUpDoctorUserName" 
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/idEditTextSignUpDoctorPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEditTextSignUpDoctorUserName"  
+         android:hint="@string/hintTextSignUpDoctorPassword" 
+        android:inputType="textPassword" />
+    
+   <ImageView
+        android:id="@+id/idImageViewSignUpDoctorPicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/idEditTextSignUpDoctorPassword" 
+ 		android:layout_alignParentLeft="true"  
+        android:src="@android:drawable/ic_menu_camera" />
+
+   <Button
+        android:id="@+id/idButtonSignUpDoctorGetPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idImageViewSignUpDoctorPicture"        
+        android:layout_alignParentLeft="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/textSignUpDoctorGetPicture" />
+   
+    <Button
+        android:id="@+id/idButtonSignUpDoctorAddDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idImageViewSignUpDoctorPicture"        
+        android:layout_alignParentRight="true"    
+        android:layout_marginTop="34dp"
+        android:text="@string/textSignUpDoctorAddDoctor" />
+    
+</RelativeLayout>

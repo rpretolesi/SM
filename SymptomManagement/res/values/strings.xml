@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    	menu xml file resource
+    --> 
+    <string name="hello_world">Hello world!</string>
+    <string name="labelEmptyString">---</string>
+    
+    <!--
+    	menu xml file resource
+    -->  
+    <string name="action_signin">Change User</string>
+    <string name="option_menu_UserSetting">User Settings</string>
+    
+    <!--
+    	patient xml file resource
+    -->  
+    <string name="action_settings_patient">Settings</string>
+    <string name="action_signup_patient">Sign Up Patient</string>
+    
+    <!--
+    	doctor xml file resource
+    -->  
+    <string name="action_settings_doctor">Settings</string>
+    <string name="action_signup_doctor">Sign Up Doctor</string>
+    
+    <!--
+    	Common Strings
+    -->
+    <string name="app_name">S.M.</string>
+    
+    <!--
+    	Common Buttons
+    -->
+    <string name="labelButtonLogin">Login</string>
+    <string name="labelButtonCancel">Cancel</string>
+    <string name="labelButtonSignUp">Sign Up</string>
+    
+    <!--
+    	Login xml file resource
+    -->
+    <string name="labelTextViewLogin">Please Insert Email and Password in order to Login</string>
+    <string name="labelEditTextLoginUserName">User Name</string>
+    <string name="labelEditTextLoginPassword">password</string>
+    <string name="textLoginCanceled">Login canceled.</string>
+    
+     <!--
+    	docotor_setting_activity xml file resource
+    -->  
+    <string name="labelTextViewDoctorSetting">Doctor Setting</string>
+    <string name="labelEditTextDoctorSettingUpdateFrequency">Update Frequency (minutes), min 1 minute.</string>
+    <string name="labelButtonDoctorSettingSave">Save</string>
+    <string name="labelButtonDoctorSettingSaveOk">Save OK</string>
+    <string name="labelButtonDoctorSettingSaveError">Save Error</string>
+    <string name="labelButtonDoctorSettingStartUpdate">Start\nUpdate</string>
+    <string name="labelButtonDoctorSettingStopUpdate">Stop\nUpdate</string>
+    <string name="labelTextViewDoctorSettingUpdateIsRunning">---</string>
+    <string name="labelTextViewDoctorSettingUpdateRunning">Running</string>
+    <string name="labelTextViewDoctorSettingUpdateStop">Stop</string>
+    <string name="labelTextViewDoctorSettingUpdateStatus">Update Status: </string>
+    <string name="labelTextViewHostAddressSetting">Host</string>
+    
+    <!--
+    	patient_doctor_fragment xml file resource
+    -->        
+    <string name="labelTextViewChooseDoctor">Please, select your Doctor !</string>
+    <string name="labelSpinnerChooseDoctor">Please, select your Doctor !</string>
+    <string name="labelButtonSetDoctor">Set Doctor</string>
+    <string name="textPatientChooseDoctor">Please, select your Doctor !</string>
+    <string name="labelTextViewChoosenDoctorLabel">Your Doctor is:</string>
+    <string name="labelTextViewChoosenDoctor">No Doctor Selected !</string>
+    <string name="labelTextViewNoChoosenDoctor">No Doctor Selected !</string>
+    <string name="labelTextViewChoosenDoctorOk">Doctor Selected !</string>
+    <string name="labelTextViewChoosenDoctorError">Error selecting Doctor ! !</string>
+    <string name="labelTextViewGetDoctorListError">Error gettint yours Doctors List !</string>
+        
+    <!--
+    	doctor_patient_fragment xml file resource
+    -->        
+    <string name="labelTextViewChoosePatient">Please, select your Patient !</string>
+    <string name="labelButtonSetPatient">Set Patient</string>
+    <string name="labelTextViewChoosenPatientLabel">Your Patient is:</string>
+    <string name="labelTextViewChoosenPatient">No Patient Selected !</string>
+    <string name="labelTextViewNoChoosenPatient">No Patient Selected !</string>
+    <string name="labelTextViewGetPatientListError">Error gettint yours Patients List !</string>
+    <string name="labelTextViewSetPatientCheckedOk">Patient Checked Ok !</string>
+    <string name="labelTextViewSetPatientCheckedError">Error Setting Patient Checked !</string>
+    
+    <!--
+    	doctor_cancer_therapy_fragment xml file resource
+    -->        
+    <string name="labelTextViewChoosePatientCancerTherapy">You can manage your Cancer Therapy for the Patient selected.</string>
+    <string name="labelEditTextCancerTherapyName">Type here the Name of the Cancer Therapy.</string>
+    <string name="labelEditTextCancerTherapyDate">Choose the date of execution.</string>
+    <string name="labelButtonSetCancerTherapyDate">Date</string>
+    <string name="labelEditTextCancerTherapyTime">Choose the time of execution.</string>
+    <string name="labelButtonSetCancerTherapyTime">Time</string>
+    <string name="labelButtonSetCancerTherapyAddUpdate">Add-Update\nTherapy</string>
+    <string name="labelButtonSetCancerTherapyDelete">Delete\nTherapy</string>
+    <string name="labelButtonSetCancerTherapyList">List\nTherapy</string>
+    <string name="labelTextSetCancerTherapyNoPatientSelected">No Patient Selected !</string>
+    <string name="labelTextSetCancerTherapyNoDoctorSelected">No Doctor Selected !</string>
+	<string name="labelTextSetCancerTherapyBadNameFormat">The name of therapy must contain at least 3 chars !</string>
+	<string name="labelTextSetCancerTherapyBadDateFormat">Bad Date Format !</string>
+	<string name="labelTextSetCancerTherapyBadTimeFormat">Bad Time Format !</string>
+	<string name="labelTextSetCancerTherapyAddOk">New Therapy Added !</string>
+	<string name="labelTextSetCancerTherapyAddError">Error Adding new Cancer Therapy ! !</string>
+	<string name="labelTextSetCancerTherapyAddAlreadyPresent">Cancer Therapy Already Present ! !</string>
+	<string name="labelTextSetCancerTherapyUpdateOk">Cancer Therapy Updated !</string>
+	<string name="labelTextSetCancerTherapyUpdateError">Error Updating Cancer Therapy !</string>
+	<string name="labelTextSetCancerTherapyUpdateErrorAlreadyExec">Error Updating Cancer Therapy ! You cannot update a cancer therapy already executed !</string>
+	<string name="labelTextSetCancerTherapyUpdateErrorNotFound">Error Updating Cancer Therapy ! Cancer therapy not found !</string>
+	<string name="labelTextSetCancerTherapyDeleteOk">Cancer Therapy Deleted !</string>
+	<string name="labelTextSetCancerTherapyDeleteError">Error Deleting Cancer Therapy !</string>
+	<string name="labelTextSetCancerTherapyDeleteErrorAlreadyExec">Error Deleting Cancer Therapy ! You cannot delete a cancer therapy already executed !</string>
+	<string name="labelTextSetCancerTherapyDeleteErrorNotFound">Error Deleting Cancer Therapy ! Cancer therapy not found !</string>
+	<string name="labelTextGetCancerTherapyListError">Error getting yours Cancer Therapy List !</string>					
+
+	<!--
+    	doctor_pain_therapy_fragment xml file resource
+    -->        
+    <string name="labelTextViewChoosePatientPainTherapy">Please, add your Pain Therapy for the Patient selected.</string>
+    <string name="labelEditTextPainTherapyName">Type here the Name of the Pain Therapy.</string>
+    <string name="labelEditTextPainTherapyDate">Choose the date of execution.</string>
+    <string name="labelButtonSetPainTherapyDate">Date</string>
+    <string name="labelEditTextPainTherapyTime">Choose the time of execution.</string>
+    <string name="labelButtonSetPainTherapyTime">Time</string>
+    <string name="labelButtonSetPainTherapyAddUpdate">Add-Update\nTherapy</string>
+    <string name="labelButtonSetPainTherapyDelete">Delete\nTherapy</string>
+    <string name="labelButtonSetPainTherapyList">List\nTherapy</string>
+    <string name="labelTextSetPainTherapyNoPatientSelected">No Patient Selected !</string>
+    <string name="labelTextSetPainTherapyNoDoctorSelected">No Doctor Selected !</string>
+	<string name="labelTextSetPainTherapyBadNameFormat">The name of therapy must contain at least 3 chars !</string>
+    <string name="labelTextSetPainTherapyAddBadNameFormat">The name of therapy must contain at least 3 chars !</string>
+	<string name="labelTextSetPainTherapyAddBadDateFormat">Bad Date Format !</string>
+	<string name="labelTextSetPainTherapyAddBadTimeFormat">Bad Time Format !</string>
+	<string name="labelTextSetPainTherapyAddOk">New Therapy Added !</string>
+	<string name="labelTextSetPainTherapyAddError">Error Adding new Pain Therapy ! !</string>
+	<string name="labelTextSetPainTherapyAddAlreadyPresent">Pain Therapy Already Present ! !</string>
+	<string name="labelTextSetPainTherapyUpdateOk">Pain Therapy Updated !</string>
+	<string name="labelTextSetPainTherapyUpdateError">Error Updating Pain Therapy !</string>
+	<string name="labelTextSetPainTherapyUpdateErrorNotFound">Error Updating Pain Therapy ! Cancer therapy not found !</string>
+	<string name="labelTextSetPainTherapyDeleteOk">Pain Therapy Deleted !</string>
+	<string name="labelTextSetPainTherapyDeleteError">Error Deleting Pain Therapy !</string>
+	<string name="labelTextSetPainTherapyDeleteErrorNotFound">Error Deleting Pain Therapy ! Pain therapy not found !</string>
+	<string name="labelTextGetPainTherapyListError">Error getting yours Pain Therapy List !</string>					
+							
+    <!--
+    	sign_up_patient_activity xml file resource
+    -->  
+    <string name="textViewSignUpPatient">Please Insert all data required in order to add a new Patient to yours App</string>
+    <string name="hintTextSignUpPatientFirstName">First Name</string>
+    <string name="hintTextSignUpPatientLastName">Last Name</string>
+    <string name="hintTextSignUpPatientDateOfBirth">Date Of Birth</string>
+    <string name="hintTextSignUpPatientMedicalRecordID">Medical Record ID</string>
+    <string name="hintTextSignUpPatientUserName">User Name</string>
+    <string name="hintTextSignUpPatientPassword">Password</string>
+    <string name="hintTextSignUpPatientDoctorID">Choose your Doctor</string>
+    <string name="textSignUpPatientAddPatient">Add Patient</string>
+    <string name="textSignUpPatientGetPicture">Get a Picture</string>
+    <string name="textSignUpPatientAddPatientOk">Patient create successfully</string>
+    <string name="textSignUpPatientAddPatientError">Error Adding Patient</string>
+    <string name="labelButtonSignUpSetPatientDateOfBirth">Date</string>
+    <string name="textSignUpPatientAddPatientImageError">Error Adding Patient Image !</string>
+    
+    <!--
+    	sign_up_doctor_activity xml file resource
+    -->  
+    <string name="textViewSignUpDoctor">Please Insert all data required in order to add a new Doctor to yours App</string>
+    <string name="hintTextSignUpDoctorFirstName">First Name</string>
+    <string name="hintTextSignUpDoctorLastName">Last Name</string>
+    <string name="hintTextSignUpDoctorIdentificationID">Identification ID</string>
+    <string name="hintTextSignUpDoctorUserName">User Name</string>
+    <string name="hintTextSignUpDoctorPassword">Password</string>
+    <string name="hintTextSignUpDoctorDoctorID">Choose your Doctor</string>
+    <string name="textSignUpDoctorAddDoctor">Add Doctor</string>
+    <string name="textSignUpDoctorGetPicture">Get a Picture</string>
+    <string name="textSignUpDoctorAddDoctorOk">Doctor create successfully</string>
+    <string name="textSignUpDoctorAddDoctorError">Error Adding Doctor</string>
+    <string name="textSignUpDoctorAddDoctorImageError">Error Adding Doctor Image !</string>
+    
+     <!--
+    	ReminderAlarmReceiver file resource
+    -->  
+    <string name="textReminderNotificationTitle">Please Check In !!!</string>
+    <string name="textReminderNotificationText">You should to Checkin in order to communicate your Health Status.</string>
+    <string name="textReminderNotificationTicker">Check In Reminder.</string>
+    <string name="textReminderNotificationPatientStatusSyncroOk">Patient Status Sincronized !</string>
+    <string name="textReminderNotificationPatientStatusSyncroError">Error sincronizing Patient Status.</string>
+    
+     <!--
+    	DoctorUpdateAlarmReceiver file resource
+    -->  
+    <string name="textReminderNotificationDoctorUpdateTitle">Please Check Yours Patients Healt Status !!!</string>
+    <string name="textReminderNotificationDoctorUpdateText">You should to Check Yours Patients Healt Status.</string>
+    <string name="textReminderNotificationDoctorUpdateTicker">Please Check Yours Patients Healt Status !!!.</string>
+    
+    <!--
+    	Question resource
+    -->  
+    <string name="labelQuestion_1">How bad is your mouth pain/sore throat ?</string>
+    <string name="labelQuestion_2">Did you take your pain medication ?</string>
+    <string name="labelQuestion_3">Does your pain stop you from eating/drinking ?</string>
+    <string-array name="labelQuestion">
+        <item>How bad is your mouth pain/sore throat ?</item>
+        <item>Did you take your pain medication ?</item>
+        <item>Does your pain stop you from eating/drinking ?</item>
+    </string-array>
+    <string name="labelQuestion_10">Date and Time of the Question</string>
+    <string name="labelQuestion_20">Last Cancer Therapy Executed</string>
+    
+     <!--
+    	Answer 1 resource
+    -->  
+    <string name="labelAnswer_1_1">well-controlled</string>
+    <string name="labelAnswer_1_2">Moderate</string>
+    <string name="labelAnswer_1_3">Severe</string>
+    <string-array name="labelAnswer_1">
+        <item>Well-Controlled</item>
+        <item>Moderate</item>
+        <item>Severe</item>
+    </string-array>
+    
+    <!--
+    	Answer 2 resource
+    -->  
+    <string name="labelAnswer_2_1">No</string>
+    <string name="labelAnswer_2_2">Yes</string>
+    <string-array name="labelAnswer_2">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <!--
+    	Answer 3 resource
+    -->  
+    <string name="labelAnswer_3_1">No</string>
+    <string name="labelAnswer_3_2">Yes</string>
+    <string-array name="labelAnswer_3">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+    
+    <!--
+    	Answer No Yes resource
+    -->  
+    <string name="labelQuestion_No_Yes">Confirm ?</string>
+    <string name="labelAnswer_No">No</string>
+    <string name="labelAnswer_Yes">Yes</string>
+    <string-array name="labelAnswer_No_Yes">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+    
+    <string name="labelAnswerThankYou">Thank you !</string>
+    <string name="labelAnswerError">Error saving your answer !</string>
+    
+    <string name="title_section_doctor_choose_patient">Choose\nPatient</string>
+    <string name="title_section_doctor_patient_status">Patient\nStatus</string>
+    <string name="title_section_doctor_chart_patient_status">Chart\nPatient\nStatus</string>
+    <string name="title_section_doctor_patient_set_cancer_therapy">Cancer\nTherapy</string>
+    <string name="title_section_doctor_patient_set_pain_therapy">Pain\nTherapy</string>
+    <string name="title_section_doctor_setting">Setting</string>
+    
+    <string name="title_section_patient_choose_doctor">Choose\nDoctor</string>
+    <string name="title_section_patient_status">Patient\nStatus</string>
+    <string name="title_section_patient_cancer_therapy">Cancer\nTherapy</string>
+    <string name="title_section_patient_pain_therapy">Pain\nTherapy</string>
+    <string name="title_section_patient_setting">Settings</string>
+    
+    <string name="textUserName">User Name (we suggest to use your email)</string>
+    <string name="textPassword">password</string>
+    <string name="textUserType">User Type Allowed Value are 0=Disable, 1=Doctor, 2=Parent</string>
+    <string name="textSave">Save</string>
+    
+    <string name="textViewSignIn">Please Insert Email and Password in order to Sign In</string>
+    <string name="textSignIn">Sign In</string>
+    
+    <string name="textViewSignUp">Please Insert all data required in order to add a new User to yours App</string>
+    
+    <string name="textUserNameAlreadyPresent">User Name already in use!</string>
+    <string name="textUserCreated">User added successfully.</string>
+    <string name="textUserNameOrPasswordError">User Name or Password error !</string>
+    <string name="textInvalidData">Invalid Data !</string>
+    
+    <string-array name="user_type">
+        <item>Patient</item>
+        <item>Doctor</item>
+    </string-array>
+            
+     <!--
+    	patient_setting_activity xml file resource
+    -->  
+    <string name="labelTextViewPatientSetting">Patient Setting</string>
+    <string name="labelEditTextPatientSettingReminderFrequency">Reminder Frequency (Mins), min 1 Min.</string>
+    <string name="labelButtonPatientSettingSave">Save</string>
+    <string name="labelButtonPatientSettingSaveOk">Save OK</string>
+    <string name="labelButtonPatientSettingSaveError">Save Error</string>
+    <string name="labelButtonPatientSettingStartReminder">Start\nReminder</string>
+    <string name="labelButtonPatientSettingStopReminder">Stop\nReminder</string>
+    <string name="labelTextViewPatientSettingReminderIsRunning">---</string>
+    <string name="labelTextViewPatientSettingReminderRunning">Running</string>
+    <string name="labelTextViewPatientSettingReminderStop">Stop</string>
+    <string name="labelTextViewPatientSettingReminderStatus">Reminder Status: </string>
+    
+     <!--
+    	patient_setting_activity Patient Status xml file resource
+    --> 
+    <string name="labelTextViewPatientStatusGetPatientStatusListError">Error Getting Patient Status List !</string>
+    <string name="labelTextViewPatientStatusAddPatientStatusError">Error Adding Patient Status !</string>
+    
+    
+     <!--
+    	pain therapy file resource
+    -->  
+    <string name="labelClickOnPainTherapyList">The Pain Therapy should be confirmed in Check In !</string>
+    
+</resources>

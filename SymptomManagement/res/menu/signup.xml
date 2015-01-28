@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pretolesi.symptommanagement.LoginActivity" >
+
+    <item
+        android:id="@+id/idActionSignUpPatient"
+        android:orderInCategory="100"
+        android:title="@string/action_signup_patient"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/idActionSignUpDoctor"
+        android:orderInCategory="100"
+        android:title="@string/action_signup_doctor"
+        app:showAsAction="never"/>
+
+</menu>
